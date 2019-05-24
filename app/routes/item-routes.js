@@ -4,8 +4,7 @@ module.exports = function (app, db) {
         res.send('hello')
     })
 
-    app.post('/donate-item'), (req, res) => {
-
+    app.post('/donate-item', (req, res) => {
         res.send('hello')
-    }
+    })
 }
